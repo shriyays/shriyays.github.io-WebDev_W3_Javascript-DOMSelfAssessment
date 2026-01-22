@@ -1,0 +1,17 @@
+
+
+#listings .listing img {
+    width: 100%;
+    height: 300px ;
+    object-fit: cover;
+    border-radius: 8px;  
+    transition: transform 0.3s ease;  
+}
+
+#listings .listing img:hover {
+    transform: scale(1.09); 
+}
+
+body{
+    background-color: rgb(206, 229, 250);
+}
